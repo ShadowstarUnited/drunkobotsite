@@ -1,0 +1,126 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 10px 0 10px;
+}
+
+.svr-opt {
+    font-size: 1.25em;
+}
+
+.svr-opt img {
+    border-radius: 100%;
+}
+
+.content {
+    margin-top: 60px
+}
+
+/* navbar */
+.navbar-default {
+    background-color: rgb(0, 125, 203);
+    border-color: #fff;
+}
+
+/* Title */
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    font-size: 48px !important;
+    line-height: 23px;
+    font-family: 'Passion One', cursive;
+    text-transform: uppercase;
+    transition: ease-in-out 0.15s;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #63BAA4;
+}
+
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fafafa;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: rgb(0, 125, 203);
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: rgb(0, 125, 203);
+}
+
+/* Caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+/* Mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #fafafa;
+    }
+}
+
+.tab-content {
+    color: #fff;
+    background-color: rgb(1, 59, 88);
+    border-radius: 0 4px 4px 4px;
+    padding: 15px 5px;
+}
+
+.nav-pills > li > a {
+    border-radius: 4px 4px 0 0;
+}
+
+.nav-pills > li > a:hover {
+    color: #fff;
+    background-color: rgb(1, 59, 88);
+}
+
+.nav-pills .open > a, .nav-pills .open > a:active, .nav-pills .open > a:focus {
+    background-color: rgb(1, 59, 88);
+}
